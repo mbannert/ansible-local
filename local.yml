@@ -1,0 +1,4 @@
+- hosts: localhost
+  become: true
+  - name: Install htop
+    apt: name=htop
