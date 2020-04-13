@@ -1,0 +1,23 @@
+- hosts: localhost
+  become: true
+  tasks:
+  - name: Install OS level tools
+    apt:
+     pkg:
+      - curl
+      - whois
+      - ca-certificates
+      - gnupg-agent
+      - libssl-dev
+      - software-properties-common
+    tags: os
+  - name: Engines and interpreters
+    apt:
+     pkg:       
+      - nodejs
+      - npm
+    tags: 
+      - engines
+  - name: node packages
+    command: npm install -g @quasar/cli
+    tags: node
