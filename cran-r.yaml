@@ -14,4 +14,9 @@
     with_items:
        - tstools
        - tsbox
+       - curl
        - kofdata
+       - rmarkdown
+       - blogdown
+       - flexdashboard
+       - tstools

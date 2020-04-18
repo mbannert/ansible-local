@@ -5,6 +5,7 @@
     apt:
      pkg:
       - curl
+      - libcurl4-opensll-dev
       - whois
       - ca-certificates
       - gnupg-agent
