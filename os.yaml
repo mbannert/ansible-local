@@ -10,6 +10,8 @@
       - ca-certificates
       - gnupg-agent
       - libssl-dev
+      - libxml2-dev
+      - libpoppler-cpp-dev
       - software-properties-common
     tags: os
   - name: Engines and interpreters

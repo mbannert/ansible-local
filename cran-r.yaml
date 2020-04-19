@@ -20,3 +20,12 @@
        - blogdown
        - flexdashboard
        - tstools
+       - dygraphs
+       - devtools
+       - readtext
+       - quanteda
+       - data.table
+       - dplyr
+       - jsonlite
+       - ggplot2
+       - reprex
