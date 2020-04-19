@@ -24,6 +24,7 @@
        - devtools
        - readtext
        - quanteda
+       - textcat
        - data.table
        - dplyr
        - jsonlite

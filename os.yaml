@@ -9,6 +9,7 @@
       - whois
       - ca-certificates
       - gnupg-agent
+      - xclip
       - libssl-dev
       - libxml2-dev
       - libpoppler-cpp-dev
