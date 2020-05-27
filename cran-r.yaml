@@ -18,7 +18,10 @@
        - kofdata
        - rmarkdown
        - blogdown
+       - bookdown
+       - pkgdown  
        - flexdashboard
+       - tufte
        - tstools
        - dygraphs
        - devtools
@@ -29,4 +32,7 @@
        - dplyr
        - jsonlite
        - ggplot2
+       - plotly
        - reprex
+       - rvest
+       - learnr

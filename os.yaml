@@ -5,7 +5,9 @@
     apt:
      pkg:
       - curl
-      - libcurl4-opensll-dev
+      - libcurl4-openssl-dev
+      - texinfo
+      - xorg-dev
       - whois
       - ca-certificates
       - gnupg-agent
@@ -18,10 +20,18 @@
   - name: Engines and interpreters
     apt:
      pkg:       
-      - nodejs
+      - nodejs-dev
+      - node-gyp
       - npm
     tags: 
       - engines
   - name: node packages
     command: npm install -g @quasar/cli
     tags: node
+  - name: latex packages
+    apt: 
+     pkg:
+      - texlive-latex-base
+      - texlive-latex-extra
+      - texlive-fonts-recommended
+      - texlive-fonts-extra 
